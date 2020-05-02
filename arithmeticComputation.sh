@@ -1,5 +1,5 @@
 #!/bin/bash -x
 
-read -p "Enter input : " a 
-read -p "Enter input : " b
-read -p "Enter input : " c
+read -p "Enter first input : " a 
+read -p "Enter second input : " b
+read -p "Enter third input : " c
