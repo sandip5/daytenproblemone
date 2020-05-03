@@ -17,3 +17,8 @@ compute[ucfour]=$computeThree
 compute[ucfive]=$computeFour
 
 echo ${compute[@]}
+
+for count in "${compute[@]}";
+do
+	computeArray[((count++))]=$count
+done
