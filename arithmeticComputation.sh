@@ -27,3 +27,6 @@ for descending in $( echo "${computeArray[@]}" | tr ' ' '\n' | sort -nr )
 do
   echo $descending
 done
+
+
+ascendingArray=($(printf '%s\n' "${computeArray[@]}" | sort -r))
