@@ -22,3 +22,8 @@ for count in "${compute[@]}";
 do
 	computeArray[((count++))]=$count
 done
+
+for descending in $( echo "${computeArray[@]}" | tr ' ' '\n' | sort -nr )
+do
+  echo $descending
+done
